@@ -1,0 +1,6 @@
+spring:
+  config:
+    import: "configserver:"
+  cloud:
+    config:
+      uri: https://github.com/slahedin/FormationMS.git
