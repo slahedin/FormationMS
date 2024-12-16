@@ -15,11 +15,3 @@ public class ServiceOneApplication {
 	}
 
 }
-@RestController
-class HelloController {
-
-    @GetMapping("/hello")
-    public String sayHello() {
-        return "Hello from Service One!";
-    }
-}
