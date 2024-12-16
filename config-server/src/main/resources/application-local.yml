@@ -3,4 +3,4 @@ spring:
     import: "configserver:"
   cloud:
     config:
-      uri: https://github.com/slahedin/depot-properties.git/
+      uri: https://github.com/slahedin/depot-properties/blob/main/application-local.yml
