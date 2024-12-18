@@ -16,10 +16,3 @@ public class MicrooneApplication {
 
 }
 
-@RestController
-class MessageController {
-    @GetMapping("/hello")
-    public String sayHello() {
-        return "Hello from microone";
-    }
-}
