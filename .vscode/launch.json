@@ -5,7 +5,8 @@
             "name": "MicroOneApplication",
             "request": "launch",
             "mainClass": "tn.gov.sibtel.microone.MicroOneApplication",
-            "projectName": "microone"
+            "projectName": "microone",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=43913 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microone"
         },
         {
             "type": "java",
@@ -21,6 +22,17 @@
             "cwd": "${workspaceFolder}",
             "mainClass": "tn.gov.sibtel.eureka_server.EurekaServerApplication",
             "projectName": "eureka-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=43331 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=eureka-server"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroTwoApplication<microtwo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tn.gov.sibtel.microtwo.MicroTwoApplication",
+            "projectName": "microtwo",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
