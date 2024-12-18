@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MicroOneApplication",
+            "request": "launch",
+            "mainClass": "tn.gov.sibtel.microone.MicroOneApplication",
+            "projectName": "microone"
+        },
+        {
+            "type": "java",
+            "name": "MicrooneApplication",
+            "request": "launch",
+            "mainClass": "tn.gov.sibtel.microone.MicrooneApplication",
+            "projectName": "microone"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<eureka-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tn.gov.sibtel.eureka_server.EurekaServerApplication",
+            "projectName": "eureka-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
