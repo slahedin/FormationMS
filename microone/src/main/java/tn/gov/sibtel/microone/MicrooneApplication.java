@@ -8,6 +8,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 
 
+
 @SpringBootApplication
 @EnableDiscoveryClient
 public class MicrooneApplication {
@@ -20,7 +21,7 @@ public class MicrooneApplication {
 	
 		@GetMapping("/hello")
 		public String hello() {
-			return "Hello from microservice 1!";
+			return "Hello from micro!";
 		}
 	}
 }
