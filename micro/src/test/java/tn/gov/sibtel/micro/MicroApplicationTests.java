@@ -1,10 +1,10 @@
-package tn.gov.sibtel.micro1;
+package tn.gov.sibtel.micro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Micro1ApplicationTests {
+class MicroApplicationTests {
 
 	@Test
 	void contextLoads() {
